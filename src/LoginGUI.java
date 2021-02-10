@@ -44,7 +44,7 @@ public class LoginGUI implements ActionListener {
 
         button = new JButton("Login");
         button.setBounds(10, 80, 80, 25);
-        button.addActionListener(new GUI());
+        button.addActionListener(new LoginGUI());
         panel.add(button);
 
         success = new JLabel("");
